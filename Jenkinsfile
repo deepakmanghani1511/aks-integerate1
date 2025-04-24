@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/TanishqJecrc/DockerAKSJenkinsWebApp.git'
+                git branch: 'main', url: 'https://github.com/deepakmanghani1511/aks-integerate1.git'
             }
         }
 
